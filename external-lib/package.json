@@ -1,0 +1,24 @@
+{
+  "name": "external-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "15.6.2",
+    "react-dom": "15.6.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.5.0",
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
+    "typescript": "2.4.2",
+    "webpack": "4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}

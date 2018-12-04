@@ -1,0 +1,44 @@
+{    
+      "compilerOptions": {
+          "emitDecoratorMetadata": false,
+          "strict": true,		
+          "noImplicitThis": false,
+          "noUnusedLocals": true,
+          "noImplicitReturns": true,
+          "noUnusedParameters": true,
+          "noImplicitAny": true,
+          "moduleResolution": "node",
+          "strictNullChecks": true,
+          "alwaysStrict": true,
+          "allowSyntheticDefaultImports": true,
+          "target": "es5",
+          "forceConsistentCasingInFileNames": true,
+          "module": "esnext",
+          "jsx": "react",
+          "declaration": true,
+          "baseUrl": ".",
+          "sourceMap": true,
+          "experimentalDecorators": true,
+          "skipLibCheck": true,
+          "outDir": "lib",
+          "typeRoots": [
+              "./node_modules/@types",
+              "./node_modules/@microsoft"
+          ],
+          "types": [
+        
+          ],
+          "lib": [
+              "es6",
+              "dom"
+          ]
+      },
+      "exclude": [
+          "node_modules",
+          "lib"
+      ],
+      "include": [
+          "src/**/*.ts",
+          "src/**/*.tsx"
+      ]
+  }

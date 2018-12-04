@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-160-client-side-solution",
+    "id": "a8284f48-d0a8-4d75-a43c-b3cf431f1c2b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-160.sppkg"
+  }
+}
