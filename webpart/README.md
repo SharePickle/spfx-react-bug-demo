@@ -7,6 +7,7 @@
 
 ## reproduce
 
+* goto external-lib folder and run `npm run dev`
 * goto external-lib folder and run `npm link`
 * goto webpart folder and run `npm link external-lib`
 * run `gulp bundle`
